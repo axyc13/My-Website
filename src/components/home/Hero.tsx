@@ -22,16 +22,32 @@ export default function Hero() {
         </h1>
         <p>Portfolio under construction</p>
         <div className="flex flex-row gap-8">
-          <Link target="_blank" href="mailto:axyc13@gmail.com">
+          <Link
+            target="_blank"
+            href="mailto:axyc13@gmail.com"
+            className="transition-transform hover:scale-150"
+          >
             <SiGmail className="w-8 h-8" />
           </Link>
-          <Link target="_blank" href="https://www.linkedin.com/in/andrew-chen1">
+          <Link
+            target="_blank"
+            href="https://www.linkedin.com/in/andrew-chen1"
+            className="transition-transform hover:scale-150"
+          >
             <SiLinkedin className="w-8 h-8" />
           </Link>
-          <Link target="_blank" href="https://www.github.com/axyc13">
+          <Link
+            target="_blank"
+            href="https://www.github.com/axyc13"
+            className="transition-transform hover:scale-150"
+          >
             <SiGithub className="w-8 h-8" />
           </Link>
-          <Link target="_blank" href="https://www.linktr.ee/andrewxymusic">
+          <Link
+            target="_blank"
+            href="https://www.linktr.ee/andrewxymusic"
+            className="transition-transform hover:scale-150"
+          >
             <TbBrandLinktree className="w-8 h-8" />
           </Link>
         </div>
