@@ -25,28 +25,28 @@ export default function Hero() {
           <Link
             target="_blank"
             href="mailto:axyc13@gmail.com"
-            className="transition-transform hover:scale-150"
+            className="transition-transform hover:scale-130"
           >
             <SiGmail className="w-8 h-8" />
           </Link>
           <Link
             target="_blank"
             href="https://www.linkedin.com/in/andrew-chen1"
-            className="transition-transform hover:scale-150"
+            className="transition-transform hover:scale-130"
           >
             <SiLinkedin className="w-8 h-8" />
           </Link>
           <Link
             target="_blank"
             href="https://www.github.com/axyc13"
-            className="transition-transform hover:scale-150"
+            className="transition-transform hover:scale-130"
           >
             <SiGithub className="w-8 h-8" />
           </Link>
           <Link
             target="_blank"
             href="https://www.linktr.ee/andrewxymusic"
-            className="transition-transform hover:scale-150"
+            className="transition-transform hover:scale-130"
           >
             <TbBrandLinktree className="w-8 h-8" />
           </Link>
