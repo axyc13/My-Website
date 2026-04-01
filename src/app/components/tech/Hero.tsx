@@ -7,7 +7,7 @@ import { SiGithub } from "react-icons/si";
 
 export default function Hero() {
   return (
-    <section className="w-screen h-screen flex flex-col justify-center items-center gap-8">
+    <section className="w-screen h-screen flex flex-col justify-center items-center gap-8 bg-white">
       <Image
         src={bg}
         alt="bg"
